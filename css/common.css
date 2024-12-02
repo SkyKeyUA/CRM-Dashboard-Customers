@@ -190,3 +190,9 @@
     font-size: 10px;
   }
 }
+@media (max-width: 479.98px) {
+  .pagination__item:nth-of-type(3),
+  .pagination__item:nth-of-type(4) {
+    display: none;
+  }
+}
